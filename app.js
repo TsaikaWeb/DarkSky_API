@@ -26,7 +26,7 @@ window.addEventListener('load', ()=>{
     
     fetch(api)
     .then(response => {
-       return response.json(); 
+       console.log(response.json()); 
     });
 
 
